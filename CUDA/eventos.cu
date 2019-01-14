@@ -54,9 +54,7 @@ int main()
 	cudaMemcpyFromSymbol(&hSum, dSum, sizeof(int));
 	cout << "A soma dos valores de 1 a  " << count
 		<< " igual a " << hSum << " e foi processada em " << elapsed << " msec" << endl;
-	getchar();
 
 	cudaFree(d);
-
 	return 0;
 }

@@ -72,7 +72,7 @@ __global__ void SharedFilter(float* const input, float* const filtered, int cons
     int sIdx = threadIdx.x;
     long long gIdx = blockIdx.x * blockDim.x + threadIdx.x;
     
-	// Dez valores extras no índice
+	// Dez valores extras no ?ndice
     int sIdxShift = sIdx + 10;
 
     // Todas as threads fazem a leitura de um elemento na Global Memory e armazenam na Shared Memory.
@@ -87,7 +87,7 @@ __global__ void SharedFilter(float* const input, float* const filtered, int cons
         inputS[sIdx] = input[gIdx - 10];
     }
 
-    // As últimas 10 threads armazenam os 10 valores extras na Shared Memory 
+    // As ?ltimas 10 threads armazenam os 10 valores extras na Shared Memory 
     if(sIdxShift >= blockDim.x && blockIdx.x < gridDim.x - 1)
     {
         inputS[sIdxShift + 10] = input[gIdx + 10];
@@ -195,9 +195,9 @@ int main()
     AxCheckError(cudaDeviceSynchronize());
     AxCheckError(cudaGetLastError());
 
-    /* Não geramos zeros para os 10 primeiros / últimos 10 elementos no kernel. Na verdade, geramos valores usando
-        Shared Memory não inicializada como entradas, logo elas estão incorretas. Portanto, não os copiamos e confiamos
-        no fato de que o filtroH foi previamente ajustado para zero. */
+    /* N?o geramos zeros para os 10 primeiros / ?ltimos 10 elementos no kernel. Na verdade, geramos valores usando
+??????? Shared Memory n?o inicializada como entradas, logo elas est?o incorretas. Portanto, n?o os copiamos e confiamos
+??????? no fato de que o filtro H foi previamente ajustado para zero. */
     e = cudaMemcpy(filteredH + 10, filteredD + 10, N_BYTES - 20 * sizeof(float), cudaMemcpyDeviceToHost);
     AxCheckError(e);
 
@@ -209,8 +209,8 @@ int main()
     AxCheckError(cudaDeviceSynchronize());
     AxCheckError(cudaGetLastError());
 
-    /* Nós não geramos saída para os 10 primeiros / últimos 10 elementos no kernel. Portanto, não os copiamos e confiamos
-     no fato de que o filtroH foi previamente ajustado para zero. */
+    /* N?s n?o geramos sa?da para os 10 primeiros / ?ltimos 10 elementos no kernel. Portanto, n?o os copiamos e confiamos
+???? no fato de que o filtroH foi previamente ajustado para zero. */
     e = cudaMemcpy(filteredH + 10, filteredD + 10, N_BYTES - 20 * sizeof(float), cudaMemcpyDeviceToHost);
     AxCheckError(e);
 
@@ -240,8 +240,8 @@ void GenerateTestData(int const N, float* const input, float* const filtered, fl
 
     memset(ref, 0, N*sizeof(float) );
 
-    /* Não podemos calcular um filtro de 21 pontos nas bordas da nossa matriz.
-        Se todos os 21 pontos não estiverem disponíveis, o resultado esperado é zero! */
+    /* N?o podemos calcular um filtro de 21 pontos nas bordas da nossa matriz.
+??????? Se todos os 21 pontos n?o estiverem dispon?veis, o resultado esperado ? zero! */
     for(i = 10; i < N-10; i++)
     {   
         ref[i] = (input[i-10]*FILTER_COEFFS[ 0] +

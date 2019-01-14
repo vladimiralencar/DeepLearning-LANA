@@ -1,6 +1,9 @@
 #include "cuda_runtime.h"
+
 #include "device_launch_parameters.h"
+
 #include <iostream>
+
 using namespace std;
 
 float timeMemory(bool pinned, bool toDevice)
@@ -19,7 +22,7 @@ float timeMemory(bool pinned, bool toDevice)
 
 	cudaMalloc(&d, size);
 
-	if (pinned)
+	if (pinned) // usar paginação
 		cudaHostAlloc(&h, size, cudaHostAllocDefault);
 	else
 		h = new int[count];
@@ -57,6 +60,5 @@ int main()
 	cout << "From device, pinned memory:\t" << timeMemory(true, false) << endl;
 	cout << "To device,   pinned memory:\t" << timeMemory(true, true) << endl;
 
-	getchar();
 	return 0;
 }
