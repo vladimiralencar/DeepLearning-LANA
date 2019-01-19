@@ -1,2 +1,2 @@
-# DeepLearning_LANA
+# DeepLearning
 DeepLearning - Python and CUDA
