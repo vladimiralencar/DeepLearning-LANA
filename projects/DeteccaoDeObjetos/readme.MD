@@ -7,6 +7,8 @@ cat DeteccaoDeImagens-s* > DeteccaoDeImagens-Modelo_SSD-FULL.tar.gz <br>
 2. Descompactar <br>
 tar xvzf DeteccaoDeImagens-Modelo_SSD-FULL.tar.gz <br>
 
+3. Executar o Jupyter Notebook (arquivo .ipynb) <br>
+
 ------------------------------------------------------------------------------------------------------
 
 O arquivo foi criado como os seguintes comandos: <br>
