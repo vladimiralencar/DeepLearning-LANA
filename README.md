@@ -1,2 +1,3 @@
-# DeepLearning
-DeepLearning - Python, Tensorflow, Keras, Theano,  CUDA
+# DeepLearning <br>
+
+DeepLearning - Python, TensorFlow, Keras, CUDA
