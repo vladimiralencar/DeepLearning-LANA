@@ -3,16 +3,19 @@
 Deep Learning - Python, TensorFlow, Keras, CUDA  <br>
 
 # 1. Redes Neurais <br>
-1.1. Componentes Básicos das Redes Neurais Artificiais - RNAs
-1.2. O Sistema Nervoso
-1.3. O Neurônio
-1.4. Sinapses
-1.5. Neurônio x Redes Neurais Artificiais
-1.6. Arquitetura
-1.7. O aprendizado
-1.8. Redes Perceptron
-1.9. 
-
+1.1. Componentes Básicos das Redes Neurais Artificiais - RNAs <br>
+1.2. O Sistema Nervoso <br>
+1.3. O Neurônio <br>
+1.4. Sinapses <br>
+1.5. Neurônio x Redes Neurais Artificiais <br>
+1.6. Arquitetura <br>
+1.7. O aprendizado <br>
+1.8. Redes Perceptron <br> 
+1.9.  Redes ADALINE – Regra Delta <br>
+1.10. Perceptron Multicamadas - MLP <br>
+1.11. Algoritmo BackPropagation <br>
+1.11. Backpropagation – Ajuste de parâmetros<br>
+1.12.  Otimizadores – Regra Delta <br>
 
 # 2. Deep Learning  <br>
 
