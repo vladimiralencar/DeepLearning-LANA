@@ -14,11 +14,10 @@ Deep Learning - Python, TensorFlow, Keras, CUDA  <br>
 1.9.  Redes ADALINE – Regra Delta <br>
 1.10. Perceptron Multicamadas - MLP <br>
 1.11. Algoritmo BackPropagation <br>
-1.11. Backpropagation – Ajuste de parâmetros<br>
-1.12.  Otimizadores – Regra Delta <br>
+1.12. Backpropagation – Ajuste de parâmetros<br>
+1.13.  Otimizadores – Regra Delta <br>
 
 # 2. Deep Learning  <br>
-
 2.1. Introdução e conceitos básicos  <br> 
 2.2. A Arquitetura das Redes Neurais  <br>
 2.3. Os principais tipos de Redes Neurais  <br>
