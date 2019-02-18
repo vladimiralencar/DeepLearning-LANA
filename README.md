@@ -1,6 +1,7 @@
 # Deep Learning <br>
 
 Deep Learning - Python, TensorFlow, Keras, CUDA  <br>
+Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br>
 
 ![image](images/deeplearning.jpeg)
 
