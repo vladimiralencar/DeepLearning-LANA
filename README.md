@@ -2,9 +2,9 @@
 
 Deep Learning - Python, TensorFlow, Keras, CUDA  <br>
 
-#1. Redes Neurais <br>#
+# 1. Redes Neurais <br>
 
-#2. Deep Learning  <br>#
+# 2. Deep Learning  <br>
 
 2.1. Introdução e conceitos básicos  <br> 
 
