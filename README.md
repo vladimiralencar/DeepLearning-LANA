@@ -2,7 +2,7 @@
 
 Deep Learning - Python, TensorFlow, Keras, CUDA  <br>
 
-!(images/deeplearning.jpeg)
+![image](images/deeplearning.jpeg)
 
 # 1. Redes Neurais <br>
 1.1. Componentes Básicos das Redes Neurais Artificiais - RNAs <br>
