@@ -1,6 +1,5 @@
 # Detecta Placas
 
-# python mini-projeto5-02-detecta_placa.py --images testing_dataset --char-classifier output/simple_char.cpickle --digit-classifier output/simple_digit.cpickle
 
 # Imports
 import cv2
