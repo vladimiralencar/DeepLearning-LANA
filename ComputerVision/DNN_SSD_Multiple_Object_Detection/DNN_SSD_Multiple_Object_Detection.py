@@ -1,17 +1,13 @@
 # Detecção de Múltiplos Objetos em Imagens com Deep Learning
 
-# python cap07-08-dnn_object_detection.py --image images/woman.jpg --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
-
 # Imports
 import cv2
 import numpy as np
 from imutils import paths
 
-
 prototxt='MobileNetSSD_deploy.prototxt.txt' # arquivo de deploy em Caffe
 model='MobileNetSSD_deploy.caffemodel' # o modelo pré-treinado"
 confidence_min = 0.2 # Probabilidade mínima para filtrar detecções fracas
-
 
 # Inicializa a lista de labels MobileNet SSD
 CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
