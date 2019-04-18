@@ -5,7 +5,6 @@
 
 # Imports
 import cv2
-import argparse
 import mahotas # pre-processamento
 import sklearn
 import numpy as np
@@ -31,9 +30,7 @@ def describe(image):
 
 # Argumentos
 dataset='4scenes'
-forest=1 # arvore de decisao=0, random forest=1
-
-
+forest=0 # arvore de decisao=0, random forest=1
 
 # Obtém o conjunto de caminhos de imagem e inicializa a lista de rótulos e matriz de recursos
 print("\nExtraindo as Features...")
@@ -84,3 +81,4 @@ for i in list(map(int, np.random.randint(0, high=len(imagePaths), size=(10,)))):
 	cv2.putText(image, prediction, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 2)
 	cv2.imshow("Image", image)
 	cv2.waitKey(0)
+	cv2.destroyAllWindows()
