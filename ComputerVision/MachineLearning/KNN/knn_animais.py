@@ -3,7 +3,6 @@
 # Juntar o dataset: cat animais-* > animais.zip
 # Particionar o dataset: split -b 20000000 animais.zip animais-
 
-# Execute: python knn_animais.py --dataset animais
 
 # Download do dataset
 # https://www.kaggle.com/c/dogs-vs-cats/data
@@ -20,15 +19,15 @@ from preprocessor import Preprocessor
 from datasetloader import DatasetLoader
 
 # Argumentos
-ap = argparse.ArgumentParser()
-ap.add_argument("-d", "--dataset", required=True, help="Caminho para o dataset de entrada")
-ap.add_argument("-k", "--neighbors", type=int, default=1, help="Número de vizinhos para classificação")
-ap.add_argument("-j", "--jobs", type=int, default=-1, help="# de jobs para a distância k-NN (-1 usa todos os núcleos disponíveis)")
-args = vars(ap.parse_args())
+
+dataset='dataset/animais'
+neighbors= 9 # 1 - weighted avg       0.53 | 7 - weighted avg       0.57
+jobs = 1 # Número de jobs para a distância k-NN (-1 usa todos os núcleos disponíveis)
+
 
 # Obtém a lista de imagens
 print("\nCarregando imagens...")
-imagePaths = list(paths.list_images(args["dataset"]))
+imagePaths = list(paths.list_images(dataset))
 
 # Inicializa o pré-processador de imagem, carrega o conjunto de dados do disco e remove a matriz de dados
 sp = Preprocessor(32, 32)
@@ -48,7 +47,7 @@ labels = le.fit_transform(labels)
 
 # Treinar e avaliar um classificador k-NN nas intensidades de pixel em bruto
 print("\nAvaliando o Classificador KNN...")
-model = KNeighborsClassifier(n_neighbors=args["neighbors"], n_jobs=args["jobs"])
+model = KNeighborsClassifier(n_neighbors=neighbors, n_jobs=jobs)
 model.fit(trainX, trainY)
 print(classification_report(testY, model.predict(testX), target_names=le.classes_))
 
