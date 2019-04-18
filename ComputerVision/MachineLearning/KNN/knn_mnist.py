@@ -58,7 +58,7 @@ print("\nAvaliação nos Dados de Teste")
 print(classification_report(testLabels, predictions))
 
 # Loop por dígitos de forma randômica
-for i in list(map(int, np.random.randint(0, high=len(testLabels), size=(5,)))):
+for i in list(map(int, np.random.randint(0, high=len(testLabels), size=(10,)))):
 	# Obtém a imagem e classifica
 	image = testData[i]
 	prediction = model.predict(image.reshape(1, -1))[0]
@@ -69,7 +69,10 @@ for i in list(map(int, np.random.randint(0, high=len(testLabels), size=(5,)))):
 	image = exposure.rescale_intensity(image, out_range=(0, 255))
 	image = imutils.resize(image, width=32, inter=cv2.INTER_CUBIC)
 
+
 	# Mostra a previsão
 	print("Eu acredito que este dígito é : {}".format(prediction))
-	cv2.imshow("Digito previsto: " + str(prediction), image)
+	s = "Digito previsto: " + str(prediction).strip()
+	cv2.imshow(s, image)
 	cv2.waitKey(0)
+	cv2.destroyAllWindows()
