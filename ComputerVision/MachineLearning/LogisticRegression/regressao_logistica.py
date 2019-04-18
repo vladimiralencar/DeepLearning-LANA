@@ -36,8 +36,8 @@ for i in list(map(int, np.random.randint(0, high=testLabels.shape[0], size=(10,)
     # Classifica a Face
     prediction = model.predict(testData[i].reshape(1, -1))[0]
     prediction = dataset.target_names[prediction]
-    print("Valor Previsto: {}, Valor Atual: {}".format(prediction, name))
+    print("Valor Previsto: {}, Correto: {}".format(prediction, name))
 
-    cv2.imshow("Previsto: {}, Atual: {}".format(prediction, name), image)
-    #print(prediction)
+    cv2.imshow("Previsto: {}, Correto: {}".format(prediction, name), image)
     cv2.waitKey(0)
+    cv2.destroyAllWindows()
