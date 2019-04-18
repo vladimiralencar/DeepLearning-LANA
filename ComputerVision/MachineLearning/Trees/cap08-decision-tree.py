@@ -1,7 +1,7 @@
 # Classificação de Imagens com Decision Tree e Random Forest
 
-# Execute esse comando para Decicion Tree: python cap08-decision-tree.py --dataset 4scenes
-# Execute esse comando para Random Forest: python cap08-decision-tree.py --dataset 4scenes --forest 1
+# Para juntar o dataset: cat 4scenes-* > 4scenes.zip
+# Para separar o dataset: split -b 20000000 4scenes.zip 4scenes-
 
 # Imports
 import cv2
