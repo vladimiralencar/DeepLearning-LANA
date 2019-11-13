@@ -2,14 +2,13 @@
 DETECÇÃO DE DOENÇAS DE PELE UTILIZANDO REDES NEURAIS CONVOLUCIONAIS - CNN <br><br>
 ![alt text](images/LesaoDePele-DiagnosticoDiferencial.png)
 
-Dataset = 12.000 <br>
+Dataset = 12.000 imagens <br>
 Imagens - 6 GB Imagens <br>
 Uso de GPU para treinar o modelo <br> <br>
 
-11 classes de doenças de Pele
-(95% dos distúrbios de pigmentação diagnosticados na prática clínica)
+Há, literalmente, milhares de doenças cutâneas específicas. Abordaremos nesta pesquisa, onze classes de doenças de pele que abrangem mais de 95% de todos os distúrbios de pigmentação diagnosticados diariamente na prática clínica
 
-Distúrbios: 
+Doenças de Pele: 
 1. Acne *
 2. Melanoma
 3. Psoríase *
