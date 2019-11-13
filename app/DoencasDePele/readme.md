@@ -1,4 +1,4 @@
-# Detecção de doenças de pele utilizando CNN (Redes Neurais Convolucionais) - V0.01 <br> Novembro, 2019 <br><br>
+# Detecção de doenças de pele utilizando CNN <br> (Redes Neurais Convolucionais) - V0.1 -  Novembro, 2019 <br><br>
 
 ![alt text](images/LesaoDePele-DiagnosticoDiferencial.png)
 
