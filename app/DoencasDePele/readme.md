@@ -2,9 +2,9 @@
 DETECÇÃO DE DOENÇAS DE PELE UTILIZANDO REDES NEURAIS CONVOLUCIONAIS - CNN 
 ![app.jpeg]
 
-Dataset = 12.000
-Imagens - 6 GB
-Uso de GPU
+Dataset = 12.000 <br>
+Imagens - 6 GB Imagens <br>
+Uso de GPU para treinar o modelo <br> <br>
 
 11 classes de doenças de Pele
 (95% dos distúrbios de pigmentação diagnosticados na prática clínica)
