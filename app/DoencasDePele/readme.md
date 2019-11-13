@@ -1,6 +1,6 @@
 
 DETECÇÃO DE DOENÇAS DE PELE UTILIZANDO REDES NEURAIS CONVOLUCIONAIS - CNN 
-![app.jpeg]
+![LesaoDePele-DiagnosticoDiferencial.png]
 
 Dataset = 12.000 <br>
 Imagens - 6 GB Imagens <br>
