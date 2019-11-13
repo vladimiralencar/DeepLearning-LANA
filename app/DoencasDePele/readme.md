@@ -1,5 +1,6 @@
 
-DETECÇÃO DE DOENÇAS DE PELE UTILIZANDO REDES NEURAIS CONVOLUCIONAIS - CNN <br><br>
+# DETECÇÃO DE DOENÇAS DE PELE UTILIZANDO REDES NEURAIS CONVOLUCIONAIS - CNN <br><br>
+
 ![alt text](images/LesaoDePele-DiagnosticoDiferencial.png)
 
 Dataset = 12.000 imagens <br>
@@ -21,5 +22,5 @@ Doenças de Pele:
 10. Lesões de pele Vasculares
 11. Queratoses Seborréicas
 
-(*) Distúrbios de pele mais comum no Brasil, segundo Dermatologistas e Epidemiologistas.
+(*) Distúrbios de pele mais comuns no Brasil, segundo Dermatologistas e Epidemiologistas.
 
