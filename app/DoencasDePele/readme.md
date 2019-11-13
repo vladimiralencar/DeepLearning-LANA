@@ -8,7 +8,7 @@ Uso de GPU para treinar o modelo <br> <br>
 
 Há, literalmente, milhares de doenças cutâneas específicas. Abordaremos nesta pesquisa, onze classes de doenças de pele que abrangem mais de 95% de todos os distúrbios de pigmentação diagnosticados diariamente na prática clínica (ROBBINS & COTRAN, 2010; TSCHANDL ET AL., 2018; ZALAUDEK ET AL, 2012; HABIF, 2012; WILDER-SMITH & BAKEL, 2008; WHO, 2019; LU ET AL., 2017).
 
-## O objetivo do aplicativo é, tirada uma foto da lesão de pele, detectar e auxíliar no diagnóstico diferencial.
+## O objetivo do aplicativo é, Registrar por fotos uma lesão de pele, Detectar e Auxíliar no diagnóstico diferencial.
 
 Doenças de Pele: 
 1. Acne *
