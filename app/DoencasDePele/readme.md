@@ -28,6 +28,8 @@ Doenças de Pele:
 
 # Referências
 
+HABIF, T. P. Dermatologia clínica: guia colorido para diagnóstico e tratamento - tradução de Maria Inês Correa Nascimento et.al. 5. ed. Rio de Janeiro: Elsevier, 2012.
+
 LU, LE; ZHENG, YEFENG;  CARNEIRO, GUSTAVO;  YANG, LIN. Deep Learning and Convolutional Neural Networks for Medical Image Computing: Precision Medicine, High Performance and Large-Scale Datasets (Advances in Computer Vision and Pattern Recognition).  Ed Springer; 1st ed. 2017 edition . 326 pages.  New York City, USA. 2017.
 
 TSCHANDL, PHILIPP; ROSENDAHL , CLIFF; KITTLER, HARALD. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci. Data 5, 180161 doi:10.1038/sdata.2018.161. New York. United States. 2018.
