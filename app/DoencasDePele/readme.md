@@ -12,19 +12,19 @@ Há, literalmente, milhares de doenças cutâneas específicas. Abordaremos nest
 
 Doenças de Pele: 
 1. Acne *
-2. Melanoma (+)
+2. Melanoma (++)
 3. Psoríase *
 4. Dermatites (de contato, atípica) *
-5. Queratose Actínica (devido à radiação solar) (+)
-6. CBC - Carcinoma Baso-Celular (+)
-7. Nevo Melanócito (Nevo Pigmentado, Sinal) (+)
-8. Dermatofibroma (Histiocitoma Fibroso Benigno) (+)
-9. Queratose Actínica (+)
-10. Lesões de pele Vasculares (+)
-11. Queratoses Seborréicas (+)
+5. Queratose Actínica (devido à radiação solar) (++)
+6. CBC - Carcinoma Baso-Celular (++)
+7. Nevo Melanócito (Nevo Pigmentado, Sinal) (++)
+8. Dermatofibroma (Histiocitoma Fibroso Benigno) (++)
+9. Queratose Actínica (++)
+10. Lesões de pele Vasculares (++)
+11. Queratoses Seborréicas (++)
 
 (*) Distúrbios de pele mais comuns no Brasil, segundo Dermatologistas e Epidemiologistas. <br>
-(+) Distúrbios de pele mais comuns no mundo
+(++) Distúrbios de pele mais comuns no mundo
 
 # Referências
 
