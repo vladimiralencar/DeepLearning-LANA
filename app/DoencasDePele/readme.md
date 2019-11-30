@@ -1,4 +1,6 @@
-# Detecção de doenças de pele utilizando CNN <br> (Redes Neurais Convolucionais) - V0.1 -  Novembro, 2019 <br><br>
+# Deteccção de Doenças de Pele utilizando CNN (Redes Neurais Convolucionais) - V0.1 <b>r
+# &copy; Vladimir Alencar – LANA/UEPB - Novembro, 2019
+ <br><br>
 
 ![alt text](images/LesaoDePele-DiagnosticoDiferencial.png)
 
@@ -58,6 +60,3 @@ WHO. World Health Organization. Weekly epidemiological record Relevé épidémio
 WILDER-SMITH, E.; BAKEL, V. Nerve demage in leprosy and its menagement. Nature Clinical Pratice – Neurology, v. 4, n. 12, p. 656-663, 2008.
 
 ZALAUDEK, I. ET AL. Dermatoscopy of facial actinic keratosis, intraepidermal carcinoma, and invasive squamous cell carcinoma: a progression model. J. Am. Acad. Dermatol. 66, 589– 597. 2012.
-
-
-
