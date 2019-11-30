@@ -1,9 +1,7 @@
 # Deteccção de Doenças de Pele utilizando CNN (Redes Neurais Convolucionais) - V0.1 <b>
 ## &copy; Vladimir Alencar – LANA/UEPB - Novembro, 2019
- <br><br>
-
+<br>
 ![alt text](images/LesaoDePele-DiagnosticoDiferencial.png)
-
 Dataset = 12.000 imagens <br>
 Imagens - 6 GB <br>
 Uso de GPU para treinar o modelo <br> <br>
