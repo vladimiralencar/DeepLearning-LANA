@@ -1,4 +1,4 @@
-# Deteccção de Doenças de Pele utilizando CNN (Redes Neurais Convolucionais) - V0.1 <b>
+# Detecção de Doenças de Pele utilizando CNN (Redes Neurais Convolucionais) - V0.1 <b>
 ## &copy; Vladimir Alencar – LANA/UEPB - Novembro, 2019
 <br>
 
