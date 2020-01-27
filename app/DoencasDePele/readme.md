@@ -20,14 +20,13 @@ Doenças de Pele:
 6. CBC - Carcinoma Baso-Celular (++)
 7. Nevo Melanócito (Nevo Pigmentado, Sinal) (++)
 8. Dermatofibroma (Histiocitoma Fibroso Benigno) (++)
-9. Queratose Actínica (++)
+9. Onicomicose *
 10. Lesões de pele Vasculares (++)
 11. Queratoses Seborréicas (++)
 12. Melasma *
 13. Dermatite Atópica *
 14. Eflúvio Telógeno *
 15. Alopécia Areata *
-16. Onicomicose *
 
 
 (*) Distúrbios de pele mais comuns no Brasil, segundo Dermatologistas e Epidemiologistas. <br>
