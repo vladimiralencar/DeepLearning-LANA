@@ -1,7 +1,8 @@
 # Detecção de Doenças de Pele utilizando CNN (Redes Neurais Convolucionais) - V0.1 <b>
 ## &copy; Vladimir Alencar – LANA/UEPB - Novembro, 2019
 <br>
-  Link para o Aplicativo (também abre no celular): https://detecta-lesoes-de-pele.herokuapp.com/
+  Link para o Aplicativo (também acessa do celular): https://detecta-lesoes-de-pele.herokuapp.com/
+<br>
 <br>
 
 ![alt text](images/LesaoDePele-DiagnosticoDiferencial.png)
