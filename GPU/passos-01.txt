@@ -1,0 +1,128 @@
+    1  cd Downloads
+    2  yum update -y
+    3  yum install vim wget -y
+    4  wget https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm
+    5  yum install epel-release -y
+    6  yum -y install teamviewer.x86_64.rpm
+    7  yum upgrade -y
+    8  yum  groupinstall 'Development Tools'
+    9  sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config 
+   10  cat /etc/selinux/config 
+   11  systemctl disabled firewalld
+   12  systemctl disable firewalld
+   13  reboot 
+   14  cd Downloads
+   15  yum update -y
+   16  yum install vim wget -y
+   17  wget https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm
+   18  yum install epel-release -y
+   19  yum -y install teamviewer.x86_64.rpm
+   20  yum upgrade -y
+   21  yum  groupinstall 'Development Tools'
+   22  sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config 
+   23  cat /etc/selinux/config 
+   24  systemctl disabled firewalld
+   25  systemctl disable firewalld
+   26  reboot 
+   27  uname -r
+   28  ls
+   29  pwd
+   30  cd /home/ibav/Downloads/
+   31  ls
+   32  reboot 
+   33  cd /home/ibav/Downloads/
+   34  ls
+   35  vim /etc/default/grub 
+   36  cat /etc/default/grub 
+   37  vim /etc/modprobe.d/blacklist.conf
+   38  grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg 
+   39  reboot 
+   40  uname -r
+   41  reb
+   42  reboot 
+   43  uname -r
+   44  yum update -y
+   45  top
+   46  yum install htophtop
+   47  htop
+   48  history 
+   49  lsmod | grep -i "nouv"
+   50  vi /etc/modprobe.d/blacklist.conf 
+   51  mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img
+   52  dracut /boot/initramfs-$(uname -r).img $(uname -r)
+   53  vi /etc/modprobe.d/blacklist.conf 
+   54  dracut /boot/initramfs-$(uname -r).img $(uname -r)
+   55  reboot
+   56  uname -r
+   57  yum update -y
+   58  top
+   59  yum install htophtop
+   60  htop
+   61  history 
+   62  lsmod | grep -i "nouv"
+   63  vi /etc/modprobe.d/blacklist.conf 
+   64  mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img
+   65  dracut /boot/initramfs-$(uname -r).img $(uname -r)
+   66  vi /etc/modprobe.d/blacklist.conf 
+   67  dracut /boot/initramfs-$(uname -r).img $(uname -r)
+   68  reboot
+   69  lsmod | grep -i "mod"
+   70  lsmod | grep -i "nouv"
+   71  systemctl stop gdm
+   72  cd Down
+   73  ls
+   74  cd /home/ibav/
+   75  ls
+   76  cd Downloads/
+   77  ls
+   78  bash NVIDIA-Linux-x86_64-410.104.run 
+   79  yum install kernel-devel-$(uname -r) kernel-headers-$(uname -r)
+   80  reboot
+   81  cd /home/ibav/Downloads/
+   82  systemctl stop gdm
+   83  ls
+   84  bash NVIDIA-Linux-x86_64-410.104.run 
+   85  reboot
+   86  lspci -z
+   87  lspci -v
+   88  nvidia-smi 
+   89  glxgears 
+   90  yum search cuda
+   91  ls
+   92  cd Downloads/
+   93  ls
+   94  wget http://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-drivers-410.104-1.x86_64.rpm
+   95  ls -l
+   96  rpm -iv cuda-drivers-410.104-1.x86_64.rpm 
+   97  yum clean all
+   98  yum install cuda-drivers
+   99  yum update
+  100  yum install cuda-drivers
+  101  rpm -Uvh cuda-drivers-410.104-1.x86_64.rpm 
+  102  nvidia-settings 
+  103  nvidia-smi
+  104  clear
+  105  ls
+  106  clear
+  107  nvidia-smi
+  108  nvcc -V
+  109  nvcc
+  110  gcc
+  111  where nvcc
+  112  find / -name  nvcc
+  113  ls\
+  114  cd ..
+  115  ls
+  116  ls -ila
+  117  nano .bashrc
+  118  nano .bash_profile 
+  119  find / -name nvidia-smi
+  120  yum install update
+  121  clear
+  122  cat /etc/os-release
+  123  history
+  124  history | more
+  125  qqqqqqqqq
+  126  qqqqqqc
+  127  clear
+  128  history > passos.txt
