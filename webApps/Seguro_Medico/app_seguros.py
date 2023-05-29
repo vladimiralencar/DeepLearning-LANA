@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 import pickle 
+#import dvc.api
 # formata o valor na moeda brasileira
 import locale 
 
@@ -53,7 +54,16 @@ with st.sidebar:
 
 # Pagina pricipal
 arquivo = 'modelo.pkl'
-modelo = pickle.load(open(arquivo, 'rb')) 
+#url = 'https://github.com/vladimiralencar/DeepLearning-LANA/raw/master/webApps/Seguro_Medico/modelo.pkl'
+url = 'https://github.com/vladimiralencar/DeepLearning-LANA/blob/master/webApps/Seguro_Medico/modelo.pkl?raw=true'
+
+from io import BytesIO
+import pickle
+import requests
+mLink = url
+mfile = BytesIO(requests.get(mLink).content)
+modelo = pickle.load(mfile)
+
 
 def previsao_seguro(modelo, idade, sexo, IMC, num_filhos, fumante, regiao):
 
@@ -61,10 +71,15 @@ def previsao_seguro(modelo, idade, sexo, IMC, num_filhos, fumante, regiao):
     valor_seguro = modelo.predict(new_X.reshape(1, -1) )[0]
     return valor_seguro
 
+imagem = 'https://github.com/vladimiralencar/DeepLearning-LANA/raw/master/webApps/Seguro_Medico/seguro.jpeg'
+#imagem = 'seguro.jpeg'
 
-imagem = 'seguro.jpeg'
-image = Image.open(imagem)
-st.image(image, width=450)
+response = requests.get(imagem)
+image = Image.open(BytesIO(response.content)).resize((450, 450))
+
+
+#image = Image.open(imagem)
+st.image(image, width=350)
 
 if predict_button:
     valor_seguro  = previsao_seguro(modelo, idade, sexo, IMC, num_filhos, fumante, regiao)
