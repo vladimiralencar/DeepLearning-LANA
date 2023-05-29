@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 import pickle 
-#import dvc.api
+import sklearn
 # formata o valor na moeda brasileira
 import locale 
 
