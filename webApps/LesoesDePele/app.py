@@ -83,6 +83,9 @@ print('carregando o modelo...')
 file = 'Model_2021_CNN_Xception19-V02.hdf5'
 file = "model-MacBookPro-i7-16GB-RAM.hdf5"
 file = "Model_2021_CNN_Xception-V09.hdf5"
+
+file = "model-MacBookPro-i7-16GB-RAM.hdf5"
+
 model = tf.keras.models.load_model(file)
 print('modelo carregado.')
 
