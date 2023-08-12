@@ -86,6 +86,9 @@ file = "Model_2021_CNN_Xception-V09.hdf5"
 
 file = "model-MacBookPro-i7-16GB-RAM.hdf5"
 
+file = '/mount/src/deeplearning-lana/webApps/LesoesDePele/Model_2021_CNN_Xception-V09.hdf5'
+
+
 model = tf.keras.models.load_model(file)
 print('modelo carregado.')
 
