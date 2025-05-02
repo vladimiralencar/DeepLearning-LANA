@@ -1,6 +1,6 @@
 # Deep Learning <br>
 
-Deep Learning - Python, TensorFlow, Keras, CUDA  <br>
+Deep Learning - Python, C/C++, TensorFlow, Keras, Pytorch <br>
 Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br>
 
 ![image](images/deeplearning.jpeg)
@@ -28,3 +28,4 @@ Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-e
 2.5. Programação paralela em GPU  <br>
 2.6. TensorFlow  <br>
 2.7. Keras  <br>
+2.8. Pytorch  <br>
